@@ -1,8 +1,5 @@
 #!/bin/bash
 # Script nay dung de cai dat Zabbix proxy 2.2.10 tu source
-
-echo "Cai dat Zabbix proxy tren Centos7.0"
-
 echo "127.0.0.1 localhost" >> /etc/hosts
 echo "nameserver 8.8.8.8" >> /etc/resovl.conf
 
